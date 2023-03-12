@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@800&family=Tilt+Neon&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./assets/bg.png);
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  color: white;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 87px;
+}
+
+nav > p:nth-child(2) {
+  margin-left: 44px;
+  font-size: 36px;
+  padding: 10px 0px;
+}
+
+ul {
+  display: flex;
+  width: 40vw;
+  justify-content: space-evenly;
+}
+
+li a {
+  display: inline-block;
+}
+
+li a p {
+  color: white;
+  font-weight: bold;
+}
+
+.list-item:hover {
+  color: purple;
+}
+
+.button1 {
+  margin-left: 502px;
+  padding: 5px 17px;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  border-color: purple;
+  font-size: 16px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.button1:hover {
+  cursor: pointer;
+  background-color: white;
+  color: purple;
+}
+
+main {
+  margin-top: 110px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading1 {
+  font-size: 60px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.heading2 {
+  font-size: 65px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.description {
+  font-family: "Tilt Neon", cursive;
+  font-size: 20px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+
+main > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.button2 {
+  padding: 5px 17px;
+  background-color: purple;
+  color: white;
+  border-radius: 6px;
+  border-color: purple;
+  font-size: 25px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: white;
+  color: purple;
+}
